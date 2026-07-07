@@ -594,3 +594,13 @@ footer .chapter__content p{
 
 }
 
+.footer-signature em{
+
+    display:block;
+
+    margin-bottom:.6rem;
+
+    font-style:italic;
+
+}
+
