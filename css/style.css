@@ -604,3 +604,78 @@ footer .chapter__content p{
 
 }
 
+/* ==========================================================
+   PRANCHAS ILUSTRADAS
+========================================================== */
+
+.plate{
+
+    padding:8rem 0;
+
+}
+
+.plate__header{
+
+    text-align:center;
+
+    max-width:680px;
+
+    margin:0 auto 3rem;
+
+}
+
+.plate__number{
+
+    display:inline-block;
+
+    margin-bottom:1rem;
+
+    letter-spacing:.30rem;
+
+    text-transform:uppercase;
+
+    font-size:.80rem;
+
+    color:var(--color-terracotta);
+
+}
+
+.plate__title{
+
+    font-family:var(--font-heading);
+
+    font-size:clamp(2rem,4vw,3rem);
+
+    font-weight:500;
+
+    color:#2B3945;
+
+}
+
+.plate__figure{
+
+    width:min(100%,980px);
+
+    margin:auto;
+
+    overflow:hidden;
+
+    border-radius:32px;
+
+    background:var(--color-sand);
+
+    box-shadow:
+
+        0 24px 60px rgba(0,0,0,.08);
+
+}
+
+.plate__figure img{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+}
