@@ -467,3 +467,130 @@ a{
 }
 
 }
+
+/* ==========================================================
+   EPÍLOGO
+========================================================== */
+
+footer{
+
+    position:relative;
+
+    background:var(--color-footer,#435E73);
+
+    color:#F7F5EF;
+
+    padding:8rem 0 6rem;
+
+    overflow:hidden;
+
+}
+
+/* Ondas superiores */
+
+footer::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-90px;
+    left:0;
+
+    width:100%;
+    height:180px;
+
+    background:
+
+        radial-gradient(circle at 20% 100%, var(--color-paper) 65%, transparent 66%),
+        radial-gradient(circle at 50% 100%, var(--color-paper) 65%, transparent 66%),
+        radial-gradient(circle at 80% 100%, var(--color-paper) 65%, transparent 66%);
+
+    background-size:34% 180px;
+
+    background-repeat:repeat-x;
+
+}
+
+/* Conteúdo */
+
+footer .chapter__header{
+
+    margin-bottom:3rem;
+
+}
+
+footer .chapter__number{
+
+    color:#D8C18A;
+
+}
+
+footer h2{
+
+    color:white;
+
+}
+
+footer .chapter__lead{
+
+    color:#FFF8EA;
+
+}
+
+footer .chapter__content p{
+
+    color:rgba(255,255,255,.82);
+
+}
+
+/* ==========================================================
+   FOOTER SIGNATURE
+========================================================== */
+
+.footer-signature{
+
+    margin-top:5rem;
+
+    text-align:center;
+
+    max-width:520px;
+
+    margin-inline:auto;
+
+    font-size:.92rem;
+
+    line-height:1.8;
+
+    opacity:.78;
+
+}
+
+.footer-signature span{
+
+    display:block;
+
+    margin-bottom:1rem;
+
+    font-size:1.4rem;
+
+    color:var(--color-gold);
+
+}
+
+.footer-signature p{
+
+    margin:0;
+
+    color:rgba(255,255,255,.82);
+
+}
+
+.footer-signature strong{
+
+    color:#FFFFFF;
+
+    font-weight:600;
+
+}
+
